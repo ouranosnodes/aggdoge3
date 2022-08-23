@@ -8,7 +8,7 @@ const Header = () => {
 		<HeaderStyle>
 			<div className="container">
 				<div className="header-content">
-					<Link to="/">Agg doge</Link>
+					<Link to="/">Doogie doge</Link>
 					<ToggleMode />
 				</div>
 			</div>

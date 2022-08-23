@@ -16,8 +16,8 @@ const Hero = () => {
 					<div className="left-side">
 						<h4>Hello there.</h4>
 							<h4> Welcome to a new doge chain coin </h4>
-						<h1>AGG DOGE</h1>
-						<p>Dev is working to release V2 site and utilities.</p>
+						<h1>DOOGIE DOGE</h1>
+						<p>Dev is working on the clock to release V2 site and utilities.</p>
 						
 						<Button href="https://app.diffusion.fi/#/swap?outputCurrency=0xfD9b33AD85E9e5857a2987b3c9d62Bea68cC4F3d" variant="primary" type="create">
     <h3> BUY </h3>
