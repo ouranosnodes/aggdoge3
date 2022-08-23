@@ -4,6 +4,8 @@ import DisplayLottie from './DisplayLottie';
 import Shapes from './Shapes';
 import Coding from '../lottie/coding.json';
 import SocialMedia from './SocialMedia';
+import {Button} from 'react-bootstrap';
+
 
 const Hero = () => {
 	return (
@@ -12,10 +14,20 @@ const Hero = () => {
 			<div className="container">
 				<div className="hero-text">
 					<div className="left-side">
-						<h4>Hello there. I'm</h4>
-						<h1>Said Mounaim</h1>
-						<p>I'm a Full Stack Web Developer.</p>
-						<SocialMedia />
+						<h4>Hello there.</h4>
+							<h4> Welcome to a new doge chain coin </h4>
+						<h1>AGG DOGE</h1>
+						<p>Dev is working to release V2 site and utilities.</p>
+						
+						<Button href="https://app.diffusion.fi/#/swap?outputCurrency=0xfD9b33AD85E9e5857a2987b3c9d62Bea68cC4F3d" variant="primary" type="create">
+    <h3> BUY </h3>
+  </Button>
+  <Button href="https://dexscreener.com/evmos/0xdc33323ad56e3120ed512971a0b9f29476ab58fc"  variant="primary" type="create">
+    <h3>CHART</h3>
+    
+  </Button> {''}
+  {''}
+  <SocialMedia />
 					</div>
 					<div className="right-side">
 						<DisplayLottie animationData={Coding} />

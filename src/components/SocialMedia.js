@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import facebook from '../icons/facebook.svg';
+import facebook from '../icons/telegram.svg';
 import twitter from '../icons/twitter.svg';
-import github from '../icons/github.svg';
+
 
 const SocialMedia = () => {
 	return (
 		<SocialMediaStyled>
-			<span>Find Me on</span>
+			<span>Find Us on</span>
 			<ul>
 				<li>
 					<a href="https://twitter.com/said_mounaim" rel="noreferrer" target="_blank">
@@ -16,14 +16,10 @@ const SocialMedia = () => {
 				</li>
 				<li>
 					<a href="https://www.facebook.com/apiyaue06" rel="noreferrer" target="_blank">
-						<img src={facebook} alt="Facebook" />
+						<img src={facebook} alt="Telegram" />
 					</a>
 				</li>
-				<li>
-					<a href="https://github.com/saidMounaim" rel="noreferrer" target="_blank">
-						<img src={github} alt="Github" />
-					</a>
-				</li>
+				
 			</ul>
 		</SocialMediaStyled>
 	);
